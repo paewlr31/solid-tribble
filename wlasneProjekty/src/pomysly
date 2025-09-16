@@ -1,0 +1,29 @@
+🔹 Poziom 1 (utrwalenie podstaw)
+
+Lista zadań (To-Do) – użytkownik może dodawać, usuwać i wyświetlać zadania w konsoli.
+
+Notatnik – zapis i odczyt notatek z pliku .txt.
+
+🔹 Poziom 2 (małe aplikacje użytkowe)
+
+System logowania – rejestracja użytkownika + zapis do pliku lub bazy danych.
+
+CV
+
+🔹 Poziom 3 (bardziej złożone projekty)
+
+Prosty menedżer biblioteki – książki z tytułem, autorem, możliwością wypożyczenia.
+
+Chat klient-serwer (na gniazdach Socket) – komunikacja w konsoli.
+
+Gra tekstowa RPG – bohater, przeciwnicy, walka, ekwipunek.
+
+Aplikacja z GUI (JavaFX) – np. organizer, kalkulator BMI, aplikacja pogodowa (API).
+
+🔹 Poziom 4 (większe projekty – nauka praktyczna)
+
+Aplikacja webowa w Spring Boot (np. prosty sklep internetowy).
+
+Prosty system rezerwacji (kino, hotel, bilety).
+
+Klient API (np. pobiera kursy walut albo prognozę pogody i wyświetla w GUI).
