@@ -1,5 +1,6 @@
 package Library;
 
+import java.net.InetSocketAddress;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -9,15 +10,34 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+import com.sun.net.httpserver.HttpServer;
+import com.sun.net.httpserver.HttpHandler;
+import com.sun.net.httpserver.HttpExchange;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetSocketAddress;
 
 
 public class Main {
 	
 
 	
-	public static void main(String[] args) throws SQLException {
+	public static void main(String[] args) throws SQLException, IOException {
 		
+		/*
+		 * HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
+		 * 
+		 * server.createContext("/", new HttpHandler() {
+		 * 
+		 * @Override public void handle(HttpExchange exchange) throws IOException {
+		 * String response = "Hello, World!"; exchange.sendResponseHeaders(200,
+		 * response.getBytes().length); OutputStream os = exchange.getResponseBody();
+		 * os.write(response.getBytes()); os.close(); } });
+		 * 
+		 * server.start();
+		 * System.out.println("Server started on http://localhost:8080"); try {
+		 * Thread.sleep(500); } catch (InterruptedException e) {}
+		 */
 		String url = "jdbc:sqlserver://localhost:1433;databaseName=library;encrypt=true;trustServerCertificate=true;";
 		String user = "prycerz";
 		String password = "Tatami05$";
