@@ -14,3 +14,5 @@ module wlasneProjekty {
     opens Library to javafx.fxml;
     exports Library;
 }
+
+//siea
